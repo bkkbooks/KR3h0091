@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR3h0091/v1
+canonical_location: https://kanripo.org/bkk/KR3h0091/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 草書狀一卷
+  identifiers:
+    krp: KR3h0091
+  tags:
+    kr-categories: KR3h
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR3h0091.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 1, filename: KR3h0091_001.yaml, hash: 'sha256:c16e1174426dd288c3ba2425b03c24ccba39603e61ae228ee94167323ed74d3b'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR3h0091_001.markers.yaml, hash: 'sha256:db941fc2f6f3dca0e95004aa58d5033252d95e58444bca27ded66ba74d879391'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR3h0091_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 404
+  label: 草書狀一卷
+  type: section
+  level: 1
+hash: sha256:a42e4a912cc9a863f0b8b067af85dee628eeaae3efc0648f8ce6f163ca8755bc
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
